@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SMKN 1 Banjar</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+ <!--NAVBAR-->
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+     <img src="logo.png" width="70" height="70"
+        <div class="brand-text">
+          <span class="brand-main">SMKN 1 BANJAR</span>
+          <span class="brand-sub">Kota Banjar, Jawa Barat</span> 
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#jurusan">Jurusan</a></li>
+        <li><a href="#fasilitas">Fasilitas</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+      <a href="#kontak" class="btn btn-nav">Daftar Sekarang</a>
+      <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#home" onclick="closeMobile()">Beranda</a></li>
+        <li><a href="#about" onclick="closeMobile()">Tentang</a></li>
+        <li><a href="#jurusan" onclick="closeMobile()">Jurusan</a></li>
+        <li><a href="#fasilitas" onclick="closeMobile()">Fasilitas</a></li>
+        <li><a href="#kontak" onclick="closeMobile()">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-shapes">
+      <div class="shape s1"></div>
+      <div class="shape s2"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-badge">🎓 Terakreditasi A</div>
+      <h1 class="hero-title">Sekolah Menengah Kejuruan Negeri <span class="highlight">1 Banjar</span></h1>
+      <p class="hero-desc">Mencetak generasi terampil, berkarakter, dan siap bersaing di dunia industri. Bergabunglah bersama ribuan alumni sukses SMKN 1 Banjar.</p>
+      <div class="hero-cta">
+        <a href="#jurusan" class="btn btn-primary">Lihat Jurusan <i class="fas fa-arrow-right"></i></a>
+        <a href="#about" class="btn btn-outline">Tentang Kami</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">7</span><span class="stat-label">Kompetensi Keahlian</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">30+</span><span class="stat-label">Tahun Berpengalaman</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-num">5000+</span><span class="stat-label">Alumni Sukses</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-img-box">
+        <div class="about-placeholder"><i class="fas fa-school"></i><span>SMKN 1 Banjar</span></div>
+        <div class="about-badge-float"><i class="fas fa-award"></i> Akreditasi A</div>
+      </div>
+      <div class="about-content">
+        <div class="section-label">Tentang Kami</div>
+        <h2 class="section-title">Membangun Masa Depan <span class="highlight">Bersama Kami</span></h2>
+        <p>SMKN 1 Banjar adalah sekolah kejuruan negeri unggulan di Kota Banjar, Jawa Barat. Kami berkomitmen menghasilkan lulusan yang kompeten, berkarakter, dan siap memasuki dunia kerja maupun berwirausaha.</p>
+        <div class="feature-item"><div class="feature-icon"><i class="fas fa-check-circle"></i></div><div><strong>Visi</strong><p>Menjadi SMK unggul yang menghasilkan tamatan berkarakter, kompeten, dan berdaya saing global.</p></div></div>
+        <div class="feature-item"><div class="feature-icon"><i class="fas fa-check-circle"></i></div><div><strong>Misi</strong><p>Menyelenggarakan pendidikan vokasi berkualitas berbasis teknologi dan kemitraan industri.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JURUSAN -->
+  <section class="jurusan section" id="jurusan">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Program Keahlian</div>
+        <h2 class="section-title">Kompetensi Keahlian <span class="highlight">Unggulan</span></h2>
+        <p class="section-desc">Pilih jurusan yang sesuai minat dan bakatmu dari 7 program keahlian unggulan kami.</p>
+      </div>
+      <div class="jurusan-grid">
+        <div class="jurusan-card" style="--accent:#e74c3c">
+          <div class="j-icon"><i class="fas fa-film"></i></div>
+          <span class="j-num">01</span>
+          <h3>Broadcasting &amp; Perfilman</h3>
+          <p>Pelajari dunia penyiaran TV, radio, produksi film, editing video, dan konten kreatif digital.</p>
+          <ul><li><i class="fas fa-circle"></i> Produksi Film &amp; Video</li><li><i class="fas fa-circle"></i> Penyiaran Radio &amp; TV</li><li><i class="fas fa-circle"></i> Video Editing</li></ul>
+          <div class="j-tag">Seni &amp; Kreatif</div>
+        </div>
+        <div class="jurusan-card" style="--accent:#e91e8c">
+          <div class="j-icon"><i class="fas fa-tshirt"></i></div>
+          <span class="j-num">02</span>
+          <h3>Busana</h3>
+          <p>Kuasai seni merancang, menjahit, dan menciptakan busana modern dengan sentuhan lokal.</p>
+          <ul><li><i class="fas fa-circle"></i> Desain Mode &amp; Fashion</li><li><i class="fas fa-circle"></i> Teknik Menjahit</li><li><i class="fas fa-circle"></i> Kewirausahaan Fashion</li></ul>
+          <div class="j-tag">Fashion &amp; Desain</div>
+        </div>
+        <div class="jurusan-card" style="--accent:#9b59b6">
+          <div class="j-icon"><i class="fas fa-paint-brush"></i></div>
+          <span class="j-num">03</span>
+          <h3>Desain Komunikasi Visual</h3>
+          <p>Kembangkan kreativitas dalam desain grafis, ilustrasi, fotografi, dan media visual.</p>
+          <ul><li><i class="fas fa-circle"></i> Desain Grafis Digital</li><li><i class="fas fa-circle"></i> Fotografi &amp; Ilustrasi</li><li><i class="fas fa-circle"></i> Branding Visual</li></ul>
+          <div class="j-tag">Desain &amp; Seni</div>
+        </div>
+        <div class="jurusan-card" style="--accent:#2980b9">
+          <div class="j-icon"><i class="fas fa-briefcase"></i></div>
+          <span class="j-num">04</span>
+          <h3>Manajemen Perkantoran &amp; Layanan Bisnis</h3>
+          <p>Pelajari administrasi profesional, manajemen kantor modern, dan layanan bisnis.</p>
+          <ul><li><i class="fas fa-circle"></i> Administrasi Perkantoran</li><li><i class="fas fa-circle"></i> Layanan Pelanggan</li><li><i class="fas fa-circle"></i> Otomasi Kantor Digital</li></ul>
+          <div class="j-tag">Bisnis &amp; Manajemen</div>
+        </div>
+        <div class="jurusan-card" style="--accent:#f39c12">
+          <div class="j-icon"><i class="fas fa-store"></i></div>
+          <span class="j-num">05</span>
+          <h3>Pemasaran</h3>
+          <p>Kuasai strategi pemasaran digital maupun konvensional untuk menjadi marketer handal.</p>
+          <ul><li><i class="fas fa-circle"></i> Digital Marketing</li><li><i class="fas fa-circle"></i> Retail &amp; Merchandising</li><li><i class="fas fa-circle"></i> Kewirausahaan</li></ul>
+          <div class="j-tag">Bisnis &amp; Marketing</div>
+        </div>
+        <div class="jurusan-card" style="--accent:#27ae60">
+          <div class="j-icon"><i class="fas fa-code"></i></div>
+          <span class="j-num">06</span>
+          <h3>Pengembangan Perangkat Lunak &amp; Gim</h3>
+          <p>Pelajari pemrograman, pengembangan aplikasi, web, dan game development modern.</p>
+          <ul><li><i class="fas fa-circle"></i> Web &amp; Mobile Dev</li><li><i class="fas fa-circle"></i> Game Development</li><li><i class="fas fa-circle"></i> Rekayasa Perangkat Lunak</li></ul>
+          <div class="j-tag">Teknologi &amp; IT</div>
+        </div>
+        <div class="jurusan-card" style="--accent:#1abc9c">
+          <div class="j-icon"><i class="fas fa-calculator"></i></div>
+          <span class="j-num">07</span>
+          <h3>Akuntansi &amp; Keuangan Lembaga</h3>
+          <p>Kuasai ilmu akuntansi, perpajakan, dan keuangan lembaga untuk karir di dunia keuangan.</p>
+          <ul><li><i class="fas fa-circle"></i> Akuntansi Keuangan</li><li><i class="fas fa-circle"></i> Perpajakan &amp; Perbankan</li><li><i class="fas fa-circle"></i> Audit &amp; Keuangan</li></ul>
+          <div class="j-tag">Akuntansi &amp; Keuangan</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FASILITAS -->
+  <section class="fasilitas section" id="fasilitas">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Fasilitas</div>
+        <h2 class="section-title">Fasilitas <span class="highlight">Modern &amp; Lengkap</span></h2>
+        <p class="section-desc">Kami menyediakan fasilitas terkini untuk mendukung proses belajar mengajar yang optimal.</p>
+      </div>
+      <div class="fasilitas-grid">
+        <div class="fas-card"><div class="fas-icon"><i class="fas fa-laptop-code"></i></div><h4>Lab Komputer</h4><p>Laboratorium modern dengan software industri terkini dan koneksi internet cepat.</p></div>
+        <div class="fas-card"><div class="fas-icon"><i class="fas fa-camera"></i></div><h4>Studio Foto &amp; Film</h4><p>Studio profesional dengan peralatan kamera dan lighting lengkap.</p></div>
+        <div class="fas-card"><div class="fas-icon"><i class="fas fa-cut"></i></div><h4>Lab Busana</h4><p>Ruang praktek dengan mesin jahit industri dan peralatan desain mode terlengkap.</p></div>
+        <div class="fas-card"><div class="fas-icon"><i class="fas fa-book-open"></i></div><h4>Perpustakaan</h4><p>Koleksi ribuan buku dan referensi digital untuk mendukung pembelajaran.</p></div>
+        <div class="fas-card"><div class="fas-icon"><i class="fas fa-futbol"></i></div><h4>Lapangan Olahraga</h4><p>Fasilitas olahraga lengkap untuk mendukung kegiatan siswa.</p></div>
+        <div class="fas-card"><div class="fas-icon"><i class="fas fa-wifi"></i></div><h4>WiFi Area</h4><p>Jaringan internet berkecepatan tinggi di seluruh area sekolah.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Siap Bergabung dengan SMKN 1 Banjar?</h2>
+        <p>Daftarkan dirimu sekarang dan mulai perjalanan menuju karir impianmu.</p>
+      </div>
+      <div class="cta-btns">
+        <a href="#kontak" class="btn btn-white">Daftar Sekarang <i class="fas fa-arrow-right"></i></a>
+        <a href="#jurusan" class="btn btn-outline-white">Lihat Jurusan</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section class="kontak section" id="kontak">
+    <div class="container kontak-grid">
+      <div class="kontak-info">
+        <div class="section-label">Hubungi Kami</div>
+        <h2 class="section-title">Informasi <span class="highlight">Kontak</span></h2>
+        <div class="k-item"><div class="k-icon"><i class="fas fa-map-marker-alt"></i></div><div><strong>Alamat</strong><p>Jl. KH Mustopa, Lingkungan Parung Lesang, RT 05 RW 10, Kelurahan Banjar, Kecamatan Banjar, Kota Banjar, Jawa Barat. </p></div></div>
+        <div class="k-item"><div class="k-icon"><i class="fas fa-phone"></i></div><div><strong>Telepon</strong><p>(0265) 741508</p></div></div>
+        <div class="k-item"><div class="k-icon"><i class="fas fa-envelope"></i></div><div><strong>Email</strong><p>smkn1banjar@gmail.com</p></div></div>
+        <div class="k-item"><div class="k-icon"><i class="fas fa-clock"></i></div><div><strong>Jam Operasional</strong><p>Senin – Jumat: 07.00 – 15.30 WIB</p></div></div>
+        <div class="sosmed">
+          <a href="#" class="sosmed-btn"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="sosmed-btn"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="sosmed-btn"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="kontak-form-wrap">
+        <form class="kontak-form" onsubmit="handleSubmit(event)">
+          <h3>Kirim Pesan</h3>
+          <div class="form-row">
+            <div class="form-group"><label>Nama Lengkap</label><input type="text" placeholder="Nama kamu" required/></div>
+            <div class="form-group"><label>Email</label><input type="email" placeholder="email@kamu.com" required/></div>
+          </div>
+          <div class="form-group"><label>Subjek</label><input type="text" placeholder="Topik pesan" required/></div>
+          <div class="form-group"><label>Pesan</label><textarea rows="5" placeholder="Tulis pesanmu..." required></textarea></div>
+          <button type="submit" class="btn btn-primary w-full">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+          <div class="form-success" id="formSuccess"><i class="fas fa-check-circle"></i> Pesan berhasil dikirim!</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <div class="logo-circle logo-sm">SMK</div>
+        <div><strong>SMKN 1 BANJAR</strong><p>Mencetak Generasi Unggul &amp; Berkarakter</p></div>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col"><h4>Navigasi</h4><ul><li><a href="#home">Beranda</a></li><li><a href="#about">Tentang</a></li><li><a href="#jurusan">Jurusan</a></li><li><a href="#kontak">Kontak</a></li></ul></div>
+        <div class="footer-col"><h4>Jurusan</h4><ul><li><a href="#jurusan">Broadcasting</a></li><li><a href="#jurusan">Busana</a></li><li><a href="#jurusan">DKV</a></li><li><a href="#jurusan">MPLB</a></li><li><a href="#jurusan">Pemasaran</a></li><li><a href="#jurusan">PPLG</a></li><li><a href="#jurusan">Akuntansi</a></li></ul></div>
+        <div class="footer-col"><h4>Kontak</h4><ul><li>(0265) 741508</li><li>smkn1banjar@gmail.com</li><li>Kota Banjar, Jawa Barat</li></ul></div>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 SMKN 1 Banjar. Hak Cipta Dilindungi.</p></div>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 60));
+    document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileMenu').classList.toggle('open'));
+    function closeMobile() { document.getElementById('mobileMenu').classList.remove('open'); }
+    document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', e => {
+      const t = document.querySelector(a.getAttribute('href'));
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+    }));
+    function handleSubmit(e) {
+      e.preventDefault();
+      const s = document.getElementById('formSuccess');
+      s.style.display = 'flex';
+      e.target.reset();
+      setTimeout(() => s.style.display = 'none', 4000);
+    }
+  </script>
+</body>
+</html>
